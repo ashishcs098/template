@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        header{
+            font-size: 30px;
+            font-weight: bold;
+            font-style: italic;
+           background-color: rgb(141, 129, 175);
+          height: 8rem;
+        }
+      
+        .navigation{
+       
+          display: flex;
+          flex-direction: start;
+          /* border: 2px solid red; */
+          color: white;
+          padding-left: 40px;
+          background-color: rgb(26, 6, 212);
+          
+        }
+        li{
+            list-style: none;
+            padding: 10px;
+        }
+     article{
+        /* border: 2px solid black; */
+        display:inline-block;
+        font-size: x-large;
+        width: 70%;
+        padding-top:30px;
+     }
+     aside{
+       
+        width: 25%;
+        font-size:20px;
+        /* border:2px solid green; */
+        color:red;
+        float:right;
+        overflow:hidden;
+        
+    }
+    footer{
+        /* display: inline-block; */
+        height: 40px;
+        /* overflow:hidden; */
+        text-align: center;
+        font-size:x-large;
+        background-color: black;
+        color:white;
+     }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <header>
+            <h1 style="text-align:center">Desing Navigation Bar</h1>
+            <nav>
+                <ul class="navigation">
+                    <li>Home</li><br>
+                    <li>About</li><br>
+                    <li>Store</li><br>
+                    <li>Product</li><br>
+                </ul>
+            </nav>
+        </header>
+               
+            <aside>
+                <h3>This is aside area</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis ex necessitatibus culpa illo dolorum reiciendis! Reprehenderit eos adipisci corporis blanditiis iusto suscipit. Natus reiciendis earum blanditiis sint perferendis fugiat repudiandae, repellat, ullam eveniet corrupti omnis aut praesentium sequi necessitatibus voluptatibus. Quod minima alias commodi dicta praesentium voluptatem, dolorem esse cum.</p>
+            </aside>
+        
+        <div id="containt">
+            <article>
+                <h2>This is article 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis repudiandae perferendis iure quaerat, dolorem ratione cum ipsa, eaque veniam a consequatur! Odio at dicta voluptate minima itaque eum sit? Illum exercitationem libero hic incidunt distinctio maiores quod laborum velit non sequi. Impedit, quod. Cumque distinctio porro error praesentium ipsum eligendi.</p>
+            </article>
+            <article>
+                <h2>This is article 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis repudiandae perferendis iure quaerat, dolorem ratione cum ipsa, eaque veniam a consequatur! Odio at dicta voluptate minima itaque eum sit? Illum exercitationem libero hic incidunt distinctio maiores quod laborum velit non sequi. Impedit, quod. Cumque distinctio porro error praesentium ipsum eligendi.</p>
+            </article>
+        </div>
+     <footer >This is footer</footer>
+    </div>
+</body>
+</html>
